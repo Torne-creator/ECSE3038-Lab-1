@@ -1,9 +1,16 @@
 #include <Arduino.h>
 
-void setup() {
-  // put your setup code here, to run once:
+void setup() 
+{
+  Serial.begin(9600);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void hello() 
+{
+  Serial.println("ECSE3038 - Engineering IoT Systems");
+}
+
+void loop()
+{
+  hello();
 }
